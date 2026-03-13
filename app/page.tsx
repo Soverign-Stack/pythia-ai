@@ -264,31 +264,33 @@ export default function Home() {
               Part of the <span className="text-gradient-gold">Sovereign Stack</span>
             </h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Pythia AI is Layer 4 of a vertically integrated technology stack,
+              Pythia AI is part of a vertically integrated technology stack,
               from silicon to space, building true digital sovereignty.
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
             {[
-              { layer: "L6", name: "Spectrum Galactic", desc: "LEO Satellites" },
-              { layer: "L5", name: "VIBE Token", desc: "Economics Layer" },
-              { layer: "L4", name: "Pythia AI", desc: "Intelligence Layer", active: true },
-              { layer: "L3", name: "PCG Dashboard", desc: "User Interface" },
-              { layer: "L2", name: "Omega Hardware", desc: "Privacy Devices" },
-              { layer: "L1", name: "Alpha Protocol", desc: "Core Network" },
+              { name: "Alpha Protocol", desc: "Core Network", color: "#dc2626" },
+              { name: "Omega Wireless", desc: "Privacy Devices", color: "#f97316" },
+              { name: "Vibertas", desc: "Sovereign OS", color: "#eab308" },
+              { name: "VIBE Token", desc: "Economics Layer", color: "#22c55e" },
+              { name: "VIBELAND", desc: "Sovereign Metaverse", color: "#3b82f6" },
+              { name: "Spectrum Galactic", desc: "LEO Satellites", color: "#8b5cf6" },
+              { name: "Pythia AI", desc: "Intelligence Layer", active: true, color: "#6366f1" },
             ].map((item) => (
               <div
-                key={item.layer}
+                key={item.name}
                 className={`p-4 rounded-lg border ${
                   item.active
                     ? "bg-[var(--gold)]/10 border-[var(--gold)] glow-gold"
                     : "bg-[var(--dark-card)] border-[var(--dark-border)]"
                 }`}
               >
-                <div className={`text-xs font-mono mb-1 ${item.active ? "text-[var(--gold)]" : "text-[var(--text-muted)]"}`}>
-                  {item.layer}
-                </div>
+                <div
+                  className="w-3 h-3 rounded-full mb-2"
+                  style={{ background: item.color }}
+                />
                 <div className={`font-semibold ${item.active ? "text-[var(--gold)]" : "text-[var(--text-primary)]"}`}>
                   {item.name}
                 </div>

@@ -226,7 +226,7 @@ export default function Technology() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Sovereign Stack Integration</h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Pythia AI sits at Layer 4 of the Sovereign Stack, coordinating between
+              Pythia AI is the intelligence layer of the Sovereign Stack, coordinating between
               hardware, protocol, and economic layers.
             </p>
           </div>
@@ -234,51 +234,58 @@ export default function Technology() {
           <div className="max-w-3xl mx-auto space-y-4">
             {[
               {
-                layer: "L6",
-                name: "Spectrum Galactic",
-                desc: "LEO satellite constellation for global coverage",
-                link: "#"
-              },
-              {
-                layer: "L5",
-                name: "VIBE Token",
-                desc: "Economic layer powering incentives and governance",
-                link: "#"
-              },
-              {
-                layer: "L4",
-                name: "Pythia AI",
-                desc: "Intelligence layer - you are here",
-                current: true
-              },
-              {
-                layer: "L3",
-                name: "PCG Dashboard",
-                desc: "User interface for network interaction",
-                link: "#"
-              },
-              {
-                layer: "L2",
-                name: "Omega Hardware",
-                desc: "Privacy routers, relays, and phones",
-                link: "https://omegawireless.xyz"
-              },
-              {
-                layer: "L1",
                 name: "Alpha Protocol",
                 desc: "Core cryptographic network protocol",
-                link: "https://alphaprotocol.network"
+                link: "https://alphaprotocol.network",
+                color: "#dc2626"
+              },
+              {
+                name: "Omega Wireless",
+                desc: "Privacy routers, relays, and phones",
+                link: "https://omegawireless.xyz",
+                color: "#f97316"
+              },
+              {
+                name: "Vibertas",
+                desc: "Sovereign OS for network interaction",
+                link: "https://vibertas.com",
+                color: "#eab308"
+              },
+              {
+                name: "VIBE Token",
+                desc: "Economic layer powering incentives and governance",
+                link: "https://vibetoken.xyz",
+                color: "#22c55e"
+              },
+              {
+                name: "VIBELAND",
+                desc: "The Sovereign Metaverse - Immersive 3D Worlds",
+                link: "https://vibeland.com",
+                color: "#3b82f6"
+              },
+              {
+                name: "Spectrum Galactic",
+                desc: "LEO satellite constellation for global coverage",
+                link: "https://spectrumgalactic.xyz",
+                color: "#8b5cf6"
+              },
+              {
+                name: "Pythia AI",
+                desc: "Intelligence layer - you are here",
+                current: true,
+                color: "#6366f1"
               }
             ].map((layer) => (
               <div
-                key={layer.layer}
+                key={layer.name}
                 className={`card flex items-center gap-6 ${
                   layer.current ? "border-[var(--gold)] bg-[var(--gold)]/5 glow-gold" : ""
                 }`}
               >
-                <div className={`text-sm font-mono ${layer.current ? "text-[var(--gold)]" : "text-[var(--text-muted)]"}`}>
-                  {layer.layer}
-                </div>
+                <div
+                  className="w-3 h-3 rounded-full flex-shrink-0"
+                  style={{ background: layer.color }}
+                />
                 <div className="flex-1">
                   <div className={`font-semibold ${layer.current ? "text-[var(--gold)]" : "text-[var(--text-primary)]"}`}>
                     {layer.name}

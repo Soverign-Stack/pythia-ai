@@ -222,19 +222,19 @@ export default function Invest() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Part of Something Bigger</h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Pythia AI is Layer 4 of the Sovereign Stack — a vertically integrated
+              Pythia AI is part of the Sovereign Stack — a vertically integrated
               technology ecosystem from silicon to space.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
             <a
               href="https://alphaprotocol.network"
               target="_blank"
               rel="noopener noreferrer"
               className="card hover:border-[var(--gold)] transition-colors group"
             >
-              <div className="text-xs font-mono text-[var(--text-muted)] mb-2">L1</div>
+              <div className="w-3 h-3 rounded-full mb-2" style={{ background: "#dc2626" }} />
               <h4 className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors">
                 Alpha Protocol
               </h4>
@@ -247,35 +247,69 @@ export default function Invest() {
               rel="noopener noreferrer"
               className="card hover:border-[var(--gold)] transition-colors group"
             >
-              <div className="text-xs font-mono text-[var(--text-muted)] mb-2">L2</div>
+              <div className="w-3 h-3 rounded-full mb-2" style={{ background: "#f97316" }} />
               <h4 className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors">
                 Omega Wireless
               </h4>
               <p className="text-sm text-[var(--text-muted)]">Privacy hardware devices</p>
             </a>
 
-            <div className="card opacity-60">
-              <div className="text-xs font-mono text-[var(--text-muted)] mb-2">L3</div>
-              <h4 className="font-semibold text-[var(--text-primary)]">PCG Dashboard</h4>
-              <p className="text-sm text-[var(--text-muted)]">User interface</p>
-            </div>
+            <a
+              href="https://vibertas.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card hover:border-[var(--gold)] transition-colors group"
+            >
+              <div className="w-3 h-3 rounded-full mb-2" style={{ background: "#eab308" }} />
+              <h4 className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors">
+                Vibertas
+              </h4>
+              <p className="text-sm text-[var(--text-muted)]">Sovereign OS</p>
+            </a>
+
+            <a
+              href="https://vibetoken.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card hover:border-[var(--gold)] transition-colors group"
+            >
+              <div className="w-3 h-3 rounded-full mb-2" style={{ background: "#22c55e" }} />
+              <h4 className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors">
+                VIBE Token
+              </h4>
+              <p className="text-sm text-[var(--text-muted)]">Economics layer</p>
+            </a>
+
+            <a
+              href="https://vibeland.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card hover:border-[var(--gold)] transition-colors group"
+            >
+              <div className="w-3 h-3 rounded-full mb-2" style={{ background: "#3b82f6" }} />
+              <h4 className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors">
+                VIBELAND
+              </h4>
+              <p className="text-sm text-[var(--text-muted)]">Sovereign Metaverse</p>
+            </a>
+
+            <a
+              href="https://spectrumgalactic.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card hover:border-[var(--gold)] transition-colors group"
+            >
+              <div className="w-3 h-3 rounded-full mb-2" style={{ background: "#8b5cf6" }} />
+              <h4 className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--gold)] transition-colors">
+                Spectrum Galactic
+              </h4>
+              <p className="text-sm text-[var(--text-muted)]">LEO satellites</p>
+            </a>
 
             <div className="card border-[var(--gold)] glow-gold">
-              <div className="text-xs font-mono text-[var(--gold)] mb-2">L4</div>
+              <div className="w-3 h-3 rounded-full mb-2" style={{ background: "#6366f1" }} />
               <h4 className="font-semibold text-[var(--gold)]">Pythia AI</h4>
               <p className="text-sm text-[var(--text-muted)]">You are here</p>
-            </div>
-
-            <div className="card opacity-60">
-              <div className="text-xs font-mono text-[var(--text-muted)] mb-2">L5</div>
-              <h4 className="font-semibold text-[var(--text-primary)]">VIBE Token</h4>
-              <p className="text-sm text-[var(--text-muted)]">Economics layer (Coming Soon)</p>
-            </div>
-
-            <div className="card opacity-60">
-              <div className="text-xs font-mono text-[var(--text-muted)] mb-2">L6</div>
-              <h4 className="font-semibold text-[var(--text-primary)]">Spectrum Galactic</h4>
-              <p className="text-sm text-[var(--text-muted)]">LEO satellites (Coming Soon)</p>
             </div>
           </div>
         </div>

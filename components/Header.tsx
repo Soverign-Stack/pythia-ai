@@ -17,36 +17,48 @@ const ecosystemProjects = [
     name: "Alpha Protocol",
     shortName: "Alpha",
     description: "Protocol Foundation - Enabling P2P Connections",
-    url: "https://alpha-protocol-web.vercel.app",
+    url: "https://alphaprotocol.network",
     color: "#dc2626",
-    layer: "Layer 0",
   },
   {
     id: "omega",
     name: "Omega Wireless",
     shortName: "Omega",
     description: "Hardware Foundation - Physical Access Points",
-    url: "https://omega-wireless.vercel.app",
+    url: "https://omegawireless.xyz",
     color: "#f97316",
-    layer: "Layer 1",
   },
   {
     id: "vibertas",
     name: "Vibertas",
     shortName: "Viber",
     description: "Sovereign OS - Your Interface to the Mesh",
-    url: "https://vibertas-os.vercel.app",
+    url: "https://vibertas.com",
     color: "#eab308",
-    layer: "OS Layer",
   },
   {
     id: "vibe",
     name: "VIBE Token",
     shortName: "VIBE",
     description: "Ecosystem Rewards - Value for Contributors",
-    url: "https://vibe-token.vercel.app",
+    url: "https://vibetoken.xyz",
     color: "#22c55e",
-    layer: "Economics",
+  },
+  {
+    id: "vibeland",
+    name: "VIBELAND",
+    shortName: "VIBELAND",
+    description: "The Sovereign Metaverse - Immersive 3D Worlds",
+    url: "https://vibeland.com",
+    color: "#3b82f6",
+  },
+  {
+    id: "spectrum",
+    name: "Spectrum Galactic",
+    shortName: "Spectrum",
+    description: "Global Reach - Satellite Coverage Extension",
+    url: "https://spectrumgalactic.xyz",
+    color: "#8b5cf6",
   },
   {
     id: "pythia",
@@ -54,17 +66,7 @@ const ecosystemProjects = [
     shortName: "Pythia",
     description: "Emergent AI - Powered by the Ecosystem",
     url: "#",
-    color: "#3b82f6",
-    layer: "Intelligence",
-  },
-  {
-    id: "spectrum",
-    name: "Spectrum Galactic",
-    shortName: "Spectrum",
-    description: "Global Reach - Satellite Coverage Extension",
-    url: "https://spectrum-galactic.vercel.app",
-    color: "#8b5cf6",
-    layer: "Connectivity",
+    color: "#6366f1",
   },
 ];
 
@@ -88,7 +90,7 @@ export default function Header() {
                 <div className="flex items-center gap-2">
                   <div
                     className="w-2 h-2 rounded-full"
-                    style={{ background: "#3b82f6" }}
+                    style={{ background: "#6366f1" }}
                   />
                   <span className="text-sm font-medium text-[var(--text-primary)]">
                     Pythia
@@ -156,12 +158,6 @@ export default function Header() {
                             <p className="text-xs text-[var(--text-muted)] mt-0.5 truncate">
                               {project.description}
                             </p>
-                            <span
-                              className="text-[10px] font-medium mt-1 inline-block"
-                              style={{ color: project.color }}
-                            >
-                              {project.layer}
-                            </span>
                           </div>
                           {project.id !== "pythia" && (
                             <svg
@@ -241,7 +237,7 @@ export default function Header() {
             >
               <div
                 className="w-2 h-2 rounded-full"
-                style={{ background: "#3b82f6" }}
+                style={{ background: "#6366f1" }}
               />
               <svg
                 className={`w-3.5 h-3.5 text-[var(--text-muted)] transition-transform ${ecosystemOpen ? "rotate-180" : ""}`}
@@ -288,7 +284,6 @@ export default function Header() {
                               <span className="px-1.5 py-0.5 rounded text-[9px] bg-[var(--status-success-bg)] text-[var(--status-success)]">Current</span>
                             )}
                           </div>
-                          <span className="text-[10px] font-medium" style={{ color: project.color }}>{project.layer}</span>
                         </div>
                       </a>
                     ))}

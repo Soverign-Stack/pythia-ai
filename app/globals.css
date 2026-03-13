@@ -2,7 +2,7 @@
 
 /* ============================================
    PYTHIA AI - SOVEREIGN STACK DESIGN SYSTEM
-   Primary: Green (#22c55e)
+   Primary: Indigo (#6366f1)
    Light/Dark Mode Support with Rainbow SS Colors
    ============================================ */
 
@@ -29,23 +29,29 @@
   --vibertas-light: #fde047;
   --vibertas-dark: #ca8a04;
 
-  /* Pythia AI - Blue (Emergent Intelligence) - PRIMARY */
-  --pythia-primary: #3b82f6;
-  --pythia-accent: #2563eb;
-  --pythia-light: #60a5fa;
-  --pythia-dark: #1d4ed8;
-
   /* VIBE Token - Green (Ecosystem Rewards) */
   --vibe-primary: #22c55e;
   --vibe-accent: #16a34a;
   --vibe-light: #4ade80;
   --vibe-dark: #15803d;
 
+  /* VIBELAND - Blue (The Sovereign Metaverse) */
+  --vibeland-primary: #3b82f6;
+  --vibeland-accent: #2563eb;
+  --vibeland-light: #60a5fa;
+  --vibeland-dark: #1d4ed8;
+
   /* Spectrum Galactic - Purple (Global Connectivity) */
   --spectrum-primary: #8b5cf6;
   --spectrum-accent: #7c3aed;
   --spectrum-light: #a78bfa;
   --spectrum-dark: #6d28d9;
+
+  /* Pythia AI - Indigo (Emergent Intelligence) - PRIMARY */
+  --pythia-primary: #6366f1;
+  --pythia-accent: #4f46e5;
+  --pythia-light: #818cf8;
+  --pythia-dark: #4338ca;
 
   /* Sovereign Stack Gold (Ecosystem Unity) */
   --sovereign-gold: #C9A227;
@@ -56,11 +62,11 @@
   --gold-light: #E8D48A;
   --gold-dark: #8B7119;
 
-  /* Primary Color (Pythia Blue) */
-  --primary: #3b82f6;
-  --primary-light: #60a5fa;
-  --primary-dark: #1d4ed8;
-  --primary-accent: #2563eb;
+  /* Primary Color (Pythia Indigo) */
+  --primary: #6366f1;
+  --primary-light: #818cf8;
+  --primary-dark: #4338ca;
+  --primary-accent: #4f46e5;
 
   /* Light Mode Colors (default) */
   --bg-primary: #ffffff;
@@ -218,11 +224,12 @@ body {
   background: linear-gradient(
     90deg,
     var(--alpha-primary) 0%,
-    var(--omega-primary) 17%,
-    var(--vibertas-primary) 33%,
-    var(--pythia-primary) 50%,
-    var(--vibe-primary) 67%,
-    var(--spectrum-primary) 83%,
+    var(--omega-primary) 14%,
+    var(--vibertas-primary) 28%,
+    var(--vibe-primary) 42%,
+    var(--vibeland-primary) 57%,
+    var(--spectrum-primary) 71%,
+    var(--pythia-primary) 85%,
     var(--alpha-primary) 100%
   );
   -webkit-background-clip: text;
@@ -240,11 +247,11 @@ body {
 }
 
 .glow-pythia {
-  box-shadow: 0 0 20px rgba(34, 197, 94, 0.3), 0 0 40px rgba(34, 197, 94, 0.1);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.3), 0 0 40px rgba(99, 102, 241, 0.1);
 }
 
 .glow-primary {
-  box-shadow: 0 0 20px rgba(34, 197, 94, 0.3), 0 0 40px rgba(34, 197, 94, 0.1);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.3), 0 0 40px rgba(99, 102, 241, 0.1);
 }
 
 /* Animated gradient background */
@@ -284,7 +291,7 @@ body {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(34, 197, 94, 0.4);
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4);
 }
 
 .btn-secondary {
@@ -341,7 +348,7 @@ body {
 }
 
 .feature-icon.pythia {
-  background: rgba(34, 197, 94, 0.1);
+  background: rgba(99, 102, 241, 0.1);
   color: var(--pythia-primary);
 }
 

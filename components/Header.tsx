@@ -179,7 +179,7 @@ export default function Header() {
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 text-xs text-[var(--text-muted)] hover:text-[var(--sovereign-gold)] transition-colors"
                       >
-                        <span>Backed by OKB Ventures</span>
+                        <span>Built by Powerclub Global. Founded by the managing partner of OKB Ventures.</span>
                         <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
@@ -289,7 +289,7 @@ export default function Header() {
                   </div>
                   <div className="p-2 border-t border-[var(--border-default)] bg-[var(--bg-surface)]">
                     <a href="https://www.okbventures.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1.5 text-xs text-[var(--text-muted)] hover:text-[var(--sovereign-gold)] transition-colors py-1">
-                      <span>Backed by OKB Ventures</span>
+                      <span>Built by Powerclub Global. Founded by the managing partner of OKB Ventures.</span>
                     </a>
                   </div>
                 </div>

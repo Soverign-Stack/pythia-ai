@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.pythia-ai.xyz"),
   title: {
     default: "Pythia AI | Intelligence Amplified",
     template: "%s | Pythia AI"
@@ -24,14 +25,16 @@ export const metadata: Metadata = {
   authors: [{ name: "Pythia AI" }],
   openGraph: {
     title: "Pythia AI | Intelligence Amplified",
-    description: "An early-stage AI project for the Alpha Protocol Network",
+    description: "An early-stage AI project for the Alpha Protocol Network. Pythia AI is designed to coordinate compute across network nodes. It runs today as a standalone service.",
     type: "website",
     locale: "en_US",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Pythia AI | Intelligence Amplified" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pythia AI | Intelligence Amplified",
-    description: "An early-stage AI project for the Alpha Protocol Network",
+    description: "An early-stage AI project for the Alpha Protocol Network. Pythia AI is designed to coordinate compute across network nodes. It runs today as a standalone service.",
+    images: ["/opengraph-image"],
   },
 };
 

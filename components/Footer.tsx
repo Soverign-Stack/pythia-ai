@@ -130,7 +130,7 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="text-[var(--text-primary)] font-semibold mb-4">Backed By</h3>
+            <h3 className="text-[var(--text-primary)] font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
                 <a
@@ -185,7 +185,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Pythia AI. Part of the <span className="text-[var(--sovereign-gold)]">Sovereign Stack</span>.
           </p>
           <p className="text-xs text-[var(--text-muted)]">
-            Backed by <a href="https://www.okbventures.com" target="_blank" rel="noopener noreferrer" className="text-[var(--sovereign-gold)] hover:underline">OKB Ventures</a>
+            Built by <a href="https://powerclubglobal.com" target="_blank" rel="noopener noreferrer" className="text-[var(--sovereign-gold)] hover:underline">Powerclub Global</a>. Founded by the managing partner of <a href="https://www.okbventures.com" target="_blank" rel="noopener noreferrer" className="text-[var(--sovereign-gold)] hover:underline">OKB Ventures</a>.
           </p>
         </div>
       </div>

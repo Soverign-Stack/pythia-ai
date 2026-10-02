@@ -250,7 +250,7 @@ export default function Technology() {
               {
                 name: "VIBE Token",
                 desc: "Economic layer powering incentives and governance",
-                link: "https://vibetoken.xyz",
+                link: "https://www.vibe-token.com",
                 color: "#22c55e"
               },
               {

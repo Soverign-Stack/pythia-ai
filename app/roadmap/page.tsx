@@ -10,12 +10,11 @@ const phases = [
   {
     phase: "Phase 1",
     name: "Local Topsi",
-    status: "IN PROGRESS",
-    timeline: "Q1 2026",
-    description: "Single-device Active Inference engine with local model training and basic decision-making capabilities.",
+    status: "CURRENT",
+    description: "Today Pythia runs as a standalone service. This phase covers a single-device Active Inference engine with local model training and basic decision-making.",
     milestones: [
-      { text: "Active Inference core implementation", done: true },
-      { text: "Local model training pipeline", done: true },
+      { text: "Active Inference core implementation", done: false },
+      { text: "Local model training pipeline", done: false },
       { text: "Task allocation decision engine", done: false },
       { text: "Integration with Omega Router", done: false },
       { text: "Basic metrics dashboard", done: false },
@@ -24,8 +23,7 @@ const phases = [
   {
     phase: "Phase 2",
     name: "Sync Topsi",
-    status: "UPCOMING",
-    timeline: "Q2 2026",
+    status: "NEXT",
     description: "Multi-device synchronization enabling Pythia instances to share learnings while preserving privacy.",
     milestones: [
       { text: "Encrypted gradient sharing", done: false },
@@ -38,8 +36,7 @@ const phases = [
   {
     phase: "Phase 3",
     name: "Learning Topsi",
-    status: "PLANNED",
-    timeline: "Q3 2026",
+    status: "LATER",
     description: "Collective intelligence emergence through coordinated learning across the mesh network.",
     milestones: [
       { text: "Multi-tier gossip protocol", done: false },
@@ -52,9 +49,8 @@ const phases = [
   {
     phase: "Phase 4",
     name: "Pythia AI",
-    status: "FUTURE",
-    timeline: "Q4 2026",
-    description: "Full planetary-scale topological super intelligence with satellite connectivity and global coordination.",
+    status: "LATER",
+    description: "The long-term goal: planetary-scale coordination with satellite connectivity. Planned, not built.",
     milestones: [
       { text: "Spectrum Galactic integration", done: false },
       { text: "Global task marketplace", done: false },
@@ -76,7 +72,7 @@ export default function Roadmap() {
           </h1>
           <p className="text-xl text-[var(--text-secondary)]">
             From local inference to planetary-scale distributed intelligence.
-            Track our progress as we build the future.
+            Phases are listed in order, without dates.
           </p>
         </div>
       </section>
@@ -97,7 +93,7 @@ export default function Roadmap() {
                   <div className="hidden md:block">
                     <div className={`
                       w-12 h-12 rounded-full flex items-center justify-center font-bold text-sm
-                      ${phase.status === "IN PROGRESS"
+                      ${phase.status === "CURRENT"
                         ? "bg-[var(--gold)] text-[var(--dark-bg)]"
                         : "bg-[var(--dark-card)] border border-[var(--dark-border)] text-[var(--text-muted)]"
                       }
@@ -109,23 +105,22 @@ export default function Roadmap() {
                   {/* Content */}
                   <div className={`
                     card
-                    ${phase.status === "IN PROGRESS" ? "border-[var(--gold)] glow-gold" : ""}
+                    ${phase.status === "CURRENT" ? "border-[var(--gold)] glow-gold" : ""}
                   `}>
                     <div className="flex flex-wrap items-center gap-3 mb-4">
                       <span className="text-sm font-mono text-[var(--text-muted)]">{phase.phase}</span>
                       <h3 className="text-2xl font-bold text-[var(--gold)]">{phase.name}</h3>
                       <span className={`
                         text-xs px-2 py-1 rounded-full font-medium
-                        ${phase.status === "IN PROGRESS"
+                        ${phase.status === "CURRENT"
                           ? "bg-[var(--gold)]/20 text-[var(--gold)]"
-                          : phase.status === "UPCOMING"
+                          : phase.status === "NEXT"
                           ? "bg-[var(--accent-blue)]/20 text-[var(--accent-blue)]"
                           : "bg-[var(--dark-surface)] text-[var(--text-muted)]"
                         }
                       `}>
                         {phase.status}
                       </span>
-                      <span className="text-sm text-[var(--text-muted)]">{phase.timeline}</span>
                     </div>
 
                     <p className="text-[var(--text-secondary)] mb-6">
@@ -214,7 +209,7 @@ export default function Roadmap() {
               Get updates
             </a>
             <a
-              href="https://okb-ventures.vercel.app"
+              href="https://www.okbventures.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"

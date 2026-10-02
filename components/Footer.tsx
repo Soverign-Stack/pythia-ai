@@ -22,7 +22,7 @@ const ecosystemProjects = [
   {
     id: "vibe",
     name: "VIBE Token",
-    url: "https://vibetoken.xyz",
+    url: "https://www.vibe-token.com",
     color: "#22c55e",
   },
   {
@@ -144,7 +144,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://okb-ventures.vercel.app"
+                  href="https://www.okbventures.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-[var(--text-muted)] hover:text-[var(--sovereign-gold)] transition-colors"
@@ -185,7 +185,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Pythia AI. Part of the <span className="text-[var(--sovereign-gold)]">Sovereign Stack</span>.
           </p>
           <p className="text-xs text-[var(--text-muted)]">
-            Backed by <a href="https://okb-ventures.vercel.app" target="_blank" rel="noopener noreferrer" className="text-[var(--sovereign-gold)] hover:underline">OKB Ventures</a>
+            Backed by <a href="https://www.okbventures.com" target="_blank" rel="noopener noreferrer" className="text-[var(--sovereign-gold)] hover:underline">OKB Ventures</a>
           </p>
         </div>
       </div>

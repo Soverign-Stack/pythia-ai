@@ -40,7 +40,7 @@ const ecosystemProjects = [
     name: "VIBE Token",
     shortName: "VIBE",
     description: "Ecosystem Token",
-    url: "https://vibetoken.xyz",
+    url: "https://www.vibe-token.com",
     color: "#22c55e",
   },
   {
@@ -174,7 +174,7 @@ export default function Header() {
 
                     <div className="p-3 border-t border-[var(--border-default)] bg-[var(--bg-surface)]">
                       <a
-                        href="https://okb-ventures.vercel.app"
+                        href="https://www.okbventures.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 text-xs text-[var(--text-muted)] hover:text-[var(--sovereign-gold)] transition-colors"
@@ -288,7 +288,7 @@ export default function Header() {
                     ))}
                   </div>
                   <div className="p-2 border-t border-[var(--border-default)] bg-[var(--bg-surface)]">
-                    <a href="https://okb-ventures.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1.5 text-xs text-[var(--text-muted)] hover:text-[var(--sovereign-gold)] transition-colors py-1">
+                    <a href="https://www.okbventures.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1.5 text-xs text-[var(--text-muted)] hover:text-[var(--sovereign-gold)] transition-colors py-1">
                       <span>Backed by OKB Ventures</span>
                     </a>
                   </div>

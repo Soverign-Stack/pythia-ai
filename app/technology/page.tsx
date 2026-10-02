@@ -28,8 +28,8 @@ export default function Technology() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Network Topology</h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Pythia operates across five network tiers, from Bluetooth-connected
-              devices to LEO satellites, ensuring connectivity in any environment.
+              Pythia is designed to work across five network tiers, from Bluetooth-connected
+              devices to satellite backhaul. These tiers are a design target, not a deployed network.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export default function Technology() {
               {
                 tier: "Tier 5",
                 name: "Planetary",
-                tech: "LEO Satellites",
+                tech: "Satellite backhaul (planned)",
                 latency: "20-40ms",
                 range: "Global",
                 color: "var(--accent-purple)"
@@ -187,15 +187,11 @@ export default function Technology() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-[var(--gold)] mb-2">Economics Layer</h3>
+              <h3 className="text-xl font-semibold text-[var(--gold)] mb-2">Incentive Layer</h3>
               <p className="text-[var(--text-secondary)] mb-4">
-                Token mechanics and incentive alignment via VIBE.
+                Incentive design, not yet defined.
               </p>
               <ul className="text-sm text-[var(--text-muted)] space-y-1">
-                <li>&#8226; Stake-weighted voting</li>
-                <li>&#8226; Revenue distribution</li>
-                <li>&#8226; Treasury management</li>
-                <li>&#8226; Buyback mechanisms</li>
               </ul>
             </div>
 
@@ -260,12 +256,12 @@ export default function Technology() {
               {
                 name: "VIBELAND",
                 desc: "The Sovereign Metaverse - Immersive 3D Worlds",
-                link: "https://vibeland.com",
+                link: "https://vibeland-web.vercel.app",
                 color: "#3b82f6"
               },
               {
                 name: "Spectrum Galactic",
-                desc: "LEO satellite constellation for global coverage",
+                desc: "Early-stage plan for satellite backhaul",
                 link: "https://spectrumgalactic.xyz",
                 color: "#8b5cf6"
               },
@@ -315,13 +311,12 @@ export default function Technology() {
             Ready to <span className="text-gradient-gold">Build With Us</span>?
           </h2>
           <p className="text-[var(--text-secondary)] text-lg mb-8">
-            Join the network as a node operator, developer, or investor.
-            The future of distributed intelligence is being built now.
+            Pythia AI is at an early stage. Follow Alpha Protocol for updates.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/invest" className="btn-primary">
-              Investment Opportunities
-            </Link>
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Get updates
+            </a>
             <Link href="/roadmap" className="btn-secondary">
               View Roadmap
             </Link>

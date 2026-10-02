@@ -28,7 +28,7 @@ const ecosystemProjects = [
   {
     id: "vibeland",
     name: "VIBELAND",
-    url: "https://vibeland.com",
+    url: "https://vibeland-web.vercel.app",
     color: "#3b82f6",
   },
   {
@@ -66,11 +66,11 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-[var(--text-secondary)] text-sm mb-4">
-              Emergent AI powered by the collective compute resources of the Sovereign Stack ecosystem.
+              Early-stage AI project. Designed to draw on compute from the Sovereign Stack ecosystem.
             </p>
             <div className="flex items-center gap-2">
               <span className="status-dot online" />
-              <span className="text-xs text-[var(--status-success)]">Neural Network Active</span>
+              <span className="text-xs text-[var(--status-success)]">Standalone service</span>
             </div>
           </div>
 
@@ -94,9 +94,9 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/invest" className="text-sm text-[var(--text-muted)] hover:text-[var(--pythia-primary)] transition-colors">
-                  Partner With Us
-                </Link>
+                <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--text-muted)] hover:text-[var(--pythia-primary)] transition-colors">
+                  Get updates
+                </a>
               </li>
             </ul>
           </div>
@@ -139,7 +139,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-[var(--text-muted)] hover:text-[var(--pythia-primary)] transition-colors"
                 >
-                  PowerClub Global
+                  Powerclub Global
                 </a>
               </li>
               <li>

@@ -8,7 +8,6 @@ const navItems = [
   { label: "How It Works", href: "/how-it-works" },
   { label: "Technology", href: "/technology" },
   { label: "Roadmap", href: "/roadmap" },
-  { label: "Invest", href: "/invest" },
 ];
 
 const ecosystemProjects = [
@@ -40,7 +39,7 @@ const ecosystemProjects = [
     id: "vibe",
     name: "VIBE Token",
     shortName: "VIBE",
-    description: "Ecosystem Rewards - Value for Contributors",
+    description: "Ecosystem Token",
     url: "https://vibetoken.xyz",
     color: "#22c55e",
   },
@@ -49,14 +48,14 @@ const ecosystemProjects = [
     name: "VIBELAND",
     shortName: "VIBELAND",
     description: "The Sovereign Metaverse - Immersive 3D Worlds",
-    url: "https://vibeland.com",
+    url: "https://vibeland-web.vercel.app",
     color: "#3b82f6",
   },
   {
     id: "spectrum",
     name: "Spectrum Galactic",
     shortName: "Spectrum",
-    description: "Global Reach - Satellite Coverage Extension",
+    description: "Planned satellite backhaul",
     url: "https://spectrumgalactic.xyz",
     color: "#8b5cf6",
   },
@@ -64,7 +63,7 @@ const ecosystemProjects = [
     id: "pythia",
     name: "Pythia AI",
     shortName: "Pythia",
-    description: "Emergent AI - Powered by the Ecosystem",
+    description: "Planned AI layer for the ecosystem",
     url: "#",
     color: "#6366f1",
   },
@@ -221,9 +220,9 @@ export default function Header() {
 
           {/* CTA Button */}
           <div>
-            <Link href="/invest" className="btn-primary text-sm">
-              Partner With Us
-            </Link>
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary text-sm">
+              Get updates
+            </a>
           </div>
         </div>
 
@@ -341,13 +340,15 @@ export default function Header() {
                 {item.label}
               </Link>
             ))}
-            <Link
-              href="/invest"
+            <a
+              href="https://www.alphaprotocol.network/join"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
               className="block btn-primary text-center mt-4"
             >
-              Partner With Us
-            </Link>
+              Get updates
+            </a>
           </nav>
         </div>
       )}

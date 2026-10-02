@@ -16,8 +16,8 @@ export default function HowItWorks() {
             How <span className="text-gradient-gold">Pythia</span> Works
           </h1>
           <p className="text-xl text-[var(--text-secondary)]">
-            A topological super intelligence that optimizes compute allocation
-            in real-time for maximum collective benefit.
+            How Pythia is designed to allocate compute across the network.
+            Today Pythia runs as a standalone service; this describes the plan.
           </p>
         </div>
       </section>
@@ -28,8 +28,8 @@ export default function HowItWorks() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">The Decision Engine</h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Every moment, Pythia evaluates network conditions and decides the optimal
-              allocation of compute resources across the mesh.
+              Pythia is designed to evaluate network conditions and decide how to
+              allocate compute resources across the mesh.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export default function HowItWorks() {
               <div className="text-4xl mb-4">1</div>
               <h3 className="text-xl font-semibold text-[var(--gold)] mb-3">Sense</h3>
               <p className="text-[var(--text-secondary)]">
-                Pythia continuously monitors network state: task queue depth, Bitcoin difficulty,
+                Pythia continuously monitors network state: task queue depth,
                 energy costs, and node availability across all tiers.
               </p>
             </div>
@@ -55,7 +55,7 @@ export default function HowItWorks() {
               <h3 className="text-xl font-semibold text-[var(--gold)] mb-3">Act</h3>
               <p className="text-[var(--text-secondary)]">
                 The action that minimizes free energy (surprise) is selected.
-                Compute is allocated to tasks or Bitcoin mining based on optimal returns.
+                Compute is allocated to the best available use.
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ while network.is_running() {
   // 3. Evaluate policies
   policies = [
     allocate_to_tasks(beliefs),
-    allocate_to_mining(beliefs),
+    allocate_to_other(beliefs),
     hybrid_allocation(beliefs)
   ];
 
@@ -136,14 +136,14 @@ while network.is_running() {
         </div>
       </section>
 
-      {/* Economic Optimization */}
+      {/* Compute Allocation */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Economic Optimization</h2>
+            <h2 className="text-3xl font-bold mb-4">Compute Allocation</h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Pythia continuously evaluates whether to execute user tasks or mine Bitcoin,
-              always choosing the option that maximizes value for the collective.
+              Planned: Pythia would evaluate how available compute is best used, such as
+              running user tasks or other workloads.
             </p>
           </div>
 
@@ -160,25 +160,23 @@ while network.is_running() {
                 <li>&#8226; Custom compute tasks</li>
               </ul>
               <div className="mt-6 p-4 bg-[var(--dark-surface)] rounded-lg">
-                <div className="text-sm text-[var(--text-muted)]">Revenue Distribution</div>
-                <div className="text-lg text-[var(--gold)]">Task Fees &#8594; VIBE Rewards</div>
+                <div className="text-sm text-[var(--text-muted)]">Rewards</div>
+                <div className="text-lg text-[var(--gold)]">Not yet defined</div>
               </div>
             </div>
 
             <div className="card border-t-4 border-t-[var(--accent-purple)]">
-              <h3 className="text-xl font-semibold text-[var(--accent-purple)] mb-4">Bitcoin Mining Mode</h3>
+              <h3 className="text-xl font-semibold text-[var(--accent-purple)] mb-4">Idle Mode</h3>
               <p className="text-[var(--text-secondary)] mb-4">
-                When task demand is low or mining is more profitable:
+                When task demand is low (not yet defined):
               </p>
               <ul className="space-y-2 text-[var(--text-secondary)]">
-                <li>&#8226; Pooled mining operations</li>
-                <li>&#8226; Stratum v2 protocol</li>
+                <li>&#8226; Other uses not yet defined</li>
                 <li>&#8226; Efficient power management</li>
-                <li>&#8226; Heat recycling where possible</li>
               </ul>
               <div className="mt-6 p-4 bg-[var(--dark-surface)] rounded-lg">
-                <div className="text-sm text-[var(--text-muted)]">Revenue Distribution</div>
-                <div className="text-lg text-[var(--gold)]">BTC &#8594; Treasury &#8594; Buybacks</div>
+                <div className="text-sm text-[var(--text-muted)]">Rewards</div>
+                <div className="text-lg text-[var(--gold)]">Not yet defined</div>
               </div>
             </div>
           </div>
@@ -239,7 +237,7 @@ while network.is_running() {
                 <span className="text-gradient-gold">Federated Learning</span>
               </h2>
               <p className="text-[var(--text-secondary)] mb-6">
-                Pythia learns from the entire network without ever seeing raw data.
+                Pythia is designed to learn from the network without seeing raw data.
                 Each device trains locally; only encrypted gradients are shared.
               </p>
               <ul className="space-y-4">
@@ -258,7 +256,7 @@ while network.is_running() {
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)] mt-1">&#10003;</span>
                   <span className="text-[var(--text-secondary)]">
-                    The collective model improves for everyone
+                    The shared model is designed to improve over time
                   </span>
                 </li>
               </ul>

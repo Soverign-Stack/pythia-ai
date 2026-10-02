@@ -42,7 +42,7 @@ export default function Home() {
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
           <div className="inline-block px-4 py-2 bg-[var(--gold)]/10 border border-[var(--gold)]/30 rounded-full text-[var(--gold)] text-sm mb-8">
-            The OpenAI of Alpha Protocol
+            Early-stage project
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -53,17 +53,17 @@ export default function Home() {
 
           <p className="text-xl md:text-2xl text-[var(--text-secondary)] max-w-3xl mx-auto mb-8">
             Topological Super Intelligence for the Alpha Protocol Network.
-            A hive mind that orchestrates compute across a global mesh,
-            optimizing between task execution and Bitcoin mining for maximum collective return.
+            Pythia is designed to coordinate compute across the network and
+            decide how to use it. Today it runs as a standalone service.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/how-it-works" className="btn-primary">
               Explore the Technology
             </Link>
-            <Link href="/invest" className="btn-secondary">
-              Investment Opportunities
-            </Link>
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+              Get updates
+            </a>
           </div>
         </div>
 
@@ -83,8 +83,8 @@ export default function Home() {
               What is <span className="text-gradient-gold">Pythia AI</span>?
             </h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Named after the Oracle of Delphi, Pythia AI serves as the intelligence layer
-              of the Sovereign Stack, making real-time decisions that benefit the entire network.
+              Named after the Oracle of Delphi, Pythia AI is planned as the intelligence layer
+              of the Sovereign Stack, helping decide how the network uses its compute.
             </p>
           </div>
 
@@ -97,8 +97,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-[var(--gold)] mb-2">Distributed Compute</h3>
               <p className="text-[var(--text-secondary)]">
-                Harnesses idle compute across thousands of Omega devices, creating a mesh supercomputer
-                that grows stronger with every new node.
+                Designed to draw compute from Alpha Protocol nodes. Today Pythia runs as a
+                standalone service; drawing on network compute is planned.
               </p>
             </div>
 
@@ -111,7 +111,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-[var(--gold)] mb-2">Active Inference</h3>
               <p className="text-[var(--text-secondary)]">
                 Built on Karl Friston&apos;s Free Energy Principle. Pythia minimizes surprise across the network,
-                continuously learning and adapting to optimize outcomes.
+                with the aim of learning and adapting over time. This is the design direction.
               </p>
             </div>
 
@@ -121,10 +121,10 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-[var(--gold)] mb-2">Economic Optimization</h3>
+              <h3 className="text-xl font-semibold text-[var(--gold)] mb-2">Compute Allocation</h3>
               <p className="text-[var(--text-secondary)]">
-                Decides in real-time: execute user tasks or mine Bitcoin? The choice that yields
-                greatest collective return is always made automatically.
+                Planned: decide whether available compute should run user tasks or other
+                workloads, based on demand and cost.
               </p>
             </div>
           </div>
@@ -140,30 +140,29 @@ export default function Home() {
                 A <span className="text-gradient-gold">Hive Mind</span> for the Mesh
               </h2>
               <p className="text-[var(--text-secondary)] mb-6">
-                Pythia AI creates a topological super intelligence by connecting every node
-                in the Alpha Protocol Network. Each device contributes compute, each user
-                benefits from the collective intelligence.
+                Pythia AI is designed to run on nodes in the Alpha Protocol Network, so that
+                devices can contribute compute and users can draw on it. This is planned work.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)] mt-1">&#10003;</span>
                   <span className="text-[var(--text-secondary)]">
-                    <strong className="text-[var(--text-primary)]">Offline-First:</strong> Works without internet,
+                    <strong className="text-[var(--text-primary)]">Offline-First:</strong> Designed to work without internet,
                     syncing when connectivity is available
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)] mt-1">&#10003;</span>
                   <span className="text-[var(--text-secondary)]">
-                    <strong className="text-[var(--text-primary)]">Privacy-Preserving:</strong> Federated learning
-                    ensures raw data never leaves your device
+                    <strong className="text-[var(--text-primary)]">Privacy-Preserving:</strong> Federated learning is planned
+                    so that raw data stays on your device
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)] mt-1">&#10003;</span>
                   <span className="text-[var(--text-secondary)]">
-                    <strong className="text-[var(--text-primary)]">Collectively Owned:</strong> VIBE token holders
-                    share in the network&apos;s success
+                    <strong className="text-[var(--text-primary)]">Runs on the network:</strong> Pythia is designed to
+                    draw its compute from Alpha Protocol nodes
                   </span>
                 </li>
               </ul>
@@ -219,8 +218,8 @@ export default function Home() {
               How <span className="text-gradient-gold">Pythia</span> Decides
             </h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Every millisecond, Pythia evaluates network conditions and makes optimal decisions
-              for the collective benefit of all participants.
+              Pythia is designed to evaluate network conditions and decide how to
+              allocate compute. This describes the planned design, not a running network.
             </p>
           </div>
 
@@ -228,22 +227,22 @@ export default function Home() {
             <div className="card border-l-4 border-l-[var(--accent-green)]">
               <h3 className="text-xl font-semibold text-[var(--accent-green)] mb-3">Execute Tasks</h3>
               <p className="text-[var(--text-secondary)] mb-4">
-                When user demand is high and tasks are profitable, Pythia allocates compute
-                to process AI inference, data analysis, and other workloads.
+                When there is demand for tasks, Pythia would allocate compute
+                to AI inference, data analysis, and other workloads.
               </p>
               <div className="text-sm text-[var(--text-muted)]">
-                Revenue &#8594; VIBE rewards &#8594; Token holders
+                Planned
               </div>
             </div>
 
             <div className="card border-l-4 border-l-[var(--accent-purple)]">
-              <h3 className="text-xl font-semibold text-[var(--accent-purple)] mb-3">Mine Bitcoin</h3>
+              <h3 className="text-xl font-semibold text-[var(--accent-purple)] mb-3">Other Workloads</h3>
               <p className="text-[var(--text-secondary)] mb-4">
-                During low-demand periods, idle compute is redirected to Bitcoin mining,
-                ensuring the network is always generating value.
+                During low-demand periods, idle compute could be put to other uses.
+                What those uses are has not been decided.
               </p>
               <div className="text-sm text-[var(--text-muted)]">
-                BTC rewards &#8594; Treasury &#8594; Token holders
+                Not yet defined
               </div>
             </div>
           </div>
@@ -276,7 +275,7 @@ export default function Home() {
               { name: "Vibertas", desc: "Sovereign OS", color: "#eab308" },
               { name: "VIBE Token", desc: "Economics Layer", color: "#22c55e" },
               { name: "VIBELAND", desc: "Sovereign Metaverse", color: "#3b82f6" },
-              { name: "Spectrum Galactic", desc: "LEO Satellites", color: "#8b5cf6" },
+              { name: "Spectrum Galactic", desc: "Satellite Backhaul (planned)", color: "#8b5cf6" },
               { name: "Pythia AI", desc: "Intelligence Layer", active: true, color: "#6366f1" },
             ].map((item) => (
               <div
@@ -308,13 +307,12 @@ export default function Home() {
             Ready to <span className="text-gradient-gold">Join the Network</span>?
           </h2>
           <p className="text-[var(--text-secondary)] text-lg mb-8">
-            OKB Ventures is actively deploying capital into the Sovereign Stack.
-            Pythia AI represents the next frontier in distributed intelligence.
+            Pythia AI is an early-stage project. Follow Alpha Protocol for updates.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/invest" className="btn-primary">
-              Explore Investment
-            </Link>
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Get updates
+            </a>
             <a
               href="https://alphaprotocol.network"
               target="_blank"

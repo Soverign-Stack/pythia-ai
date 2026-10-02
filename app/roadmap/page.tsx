@@ -16,7 +16,7 @@ const phases = [
     milestones: [
       { text: "Active Inference core implementation", done: true },
       { text: "Local model training pipeline", done: true },
-      { text: "Task/Mining decision engine", done: false },
+      { text: "Task allocation decision engine", done: false },
       { text: "Integration with Omega Router", done: false },
       { text: "Basic metrics dashboard", done: false },
     ]
@@ -46,7 +46,7 @@ const phases = [
       { text: "Differential privacy integration", done: false },
       { text: "Hierarchical model architecture", done: false },
       { text: "Cross-cluster optimization", done: false },
-      { text: "VIBE token integration", done: false },
+      { text: "Token integration (design only)", done: false },
     ]
   },
   {
@@ -58,7 +58,7 @@ const phases = [
     milestones: [
       { text: "Spectrum Galactic integration", done: false },
       { text: "Global task marketplace", done: false },
-      { text: "Automated treasury management", done: false },
+      { text: "Automated resource management", done: false },
       { text: "Third-party developer API", done: false },
       { text: "Governance automation", done: false },
     ]
@@ -175,7 +175,7 @@ export default function Roadmap() {
               <h3 className="text-xl font-semibold text-[var(--gold)] mb-2">Core Engine</h3>
               <p className="text-[var(--text-secondary)]">
                 Implementing the Active Inference decision loop with support for
-                task execution and Bitcoin mining allocation.
+                task execution and compute allocation.
               </p>
             </div>
 
@@ -200,54 +200,6 @@ export default function Roadmap() {
         </div>
       </section>
 
-      {/* Investment Timeline */}
-      <section className="py-24">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Investment Timeline</h2>
-            <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              OKB Ventures is deploying capital into the Sovereign Stack with
-              Pythia AI as a priority investment target.
-            </p>
-          </div>
-
-          <div className="space-y-6">
-            <div className="card border-l-4 border-l-[var(--gold)]">
-              <div className="flex flex-wrap items-center gap-4 mb-2">
-                <span className="text-lg font-bold text-[var(--gold)]">Seed Round</span>
-                <span className="text-sm text-[var(--text-muted)]">Now Open</span>
-              </div>
-              <p className="text-[var(--text-secondary)]">
-                Initial capital deployment for core development team and infrastructure.
-                Focus on Phase 1 and Phase 2 milestones.
-              </p>
-            </div>
-
-            <div className="card border-l-4 border-l-[var(--accent-blue)]">
-              <div className="flex flex-wrap items-center gap-4 mb-2">
-                <span className="text-lg font-bold text-[var(--accent-blue)]">Series A</span>
-                <span className="text-sm text-[var(--text-muted)]">Q3 2026</span>
-              </div>
-              <p className="text-[var(--text-secondary)]">
-                Scaling the network with additional node deployment, marketing,
-                and developer ecosystem growth.
-              </p>
-            </div>
-
-            <div className="card border-l-4 border-l-[var(--accent-purple)]">
-              <div className="flex flex-wrap items-center gap-4 mb-2">
-                <span className="text-lg font-bold text-[var(--accent-purple)]">Token Launch</span>
-                <span className="text-sm text-[var(--text-muted)]">Q4 2026</span>
-              </div>
-              <p className="text-[var(--text-secondary)]">
-                VIBE token public launch with full economic integration across
-                the Sovereign Stack ecosystem.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-24 bg-[var(--dark-surface)]">
         <div className="max-w-4xl mx-auto px-4 text-center">
@@ -255,13 +207,12 @@ export default function Roadmap() {
             Join the <span className="text-gradient-gold">Journey</span>
           </h2>
           <p className="text-[var(--text-secondary)] text-lg mb-8">
-            Be part of building the next generation of distributed intelligence.
-            Investment opportunities are available now.
+            Pythia AI is at an early stage. Follow Alpha Protocol for updates.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/invest" className="btn-primary">
-              Explore Investment
-            </Link>
+            <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Get updates
+            </a>
             <a
               href="https://okb-ventures.vercel.app"
               target="_blank"
